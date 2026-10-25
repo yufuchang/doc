@@ -1,6 +1,6 @@
-Stillglide Privacy Policy 
+Stillglide Privacy Policy
 Updated: October 25, 2026
-Effective date: To be specified in the published version.
+Effective date: October 25, 2026
 
 Operator: Fortune
 Contact email: yufuchang.work@gmail.com
@@ -10,7 +10,7 @@ When you choose Phone gallery, Stillglide requests photo read access and reads t
 
 Favorites, selected source, reflection and sound preferences, privacy acceptance, and language are stored on your device. Favorites are identified by local image URI. The app attempts to update Android's IS_FAVORITE flag, but a manufacturer's Gallery may not display it, so Stillglide has its own favorites page. Notes in the debug list build are stored locally. Stillglide has no account feature and does not upload your original photos.
 
-The current release build has ads disabled and does not include Umeng or Bugly. A future release configured for Google AdMob and Google's User Messaging Platform (UMP) may process advertising identifiers, device and network information, IP address, and ad interactions after applicable consent. This policy and store disclosures must be updated for the exact published build.
+This release uses Google AdMob app open and banner ads and Google's User Messaging Platform (UMP) for applicable privacy choices. It does not include Umeng or Bugly. After you accept this policy, UMP checks whether a consent message is required. The Google Mobile Ads SDK is initialized and ads are requested only when UMP reports that ads may be requested. Google may process your IP address, app interactions, diagnostic information, advertising ID, app set ID, and other applicable device or account identifiers for advertising, measurement, and fraud prevention. Consent choices, regional rules, and device settings can affect which identifiers and ads are used. Stillglide does not send original photos to the ad SDK.
 
 When the vault is enabled, the app reads the image, creates and verifies an encrypted copy in app-private no-backup storage, and stores its name and optional note locally. The encryption key is kept in Android Keystore. The vault has no cloud sync or separate PIN or biometric lock. After Android confirms deletion, the original is removed from the system gallery. Restoration writes a new gallery image. Uninstalling the app or clearing its data deletes the encrypted files and key, making vault photos unrecoverable.
 
@@ -20,15 +20,14 @@ Photos are processed on your device for browsing, favorites, and requests to mov
 Vault copies in builds that enable the feature remain until you restore them, clear app data, or uninstall. Before a move, the app prominently warns that the original disappears from the system gallery, may not appear in Recently deleted, and that needed vault photos must be restored or separately backed up before uninstalling. The encrypted copy is removed only after a successful restore.
 
 3. Permissions
-Photo read permission supports Phone gallery. Folder access supports a folder you choose. If you deny broad photo access, you can still select a folder through Android's picker. On Android 12 and later, optional media management special access is enabled only after you open Android settings from the app and grant it; it removes repeated confirmation when moving accessible photos into or out of trash. You can revoke it in Android settings. Network permission is used only by the advertising module when configured.
+Photo read permission supports Phone gallery. Folder access supports a folder you choose. If you deny broad photo access, you can still select a folder through Android's picker. On Android 12 and later, optional media management special access is enabled only after you open Android settings from the app and grant it; it removes repeated confirmation when moving accessible photos into or out of trash. You can revoke it in Android settings. Network permission supports UMP and AdMob. The app has no photo-upload service.
 
 4. Third parties and transfers
-The current release build has ads disabled and includes no Umeng or Bugly SDK. Before enabling AdMob/UMP, the operator must list its provider, data, purpose, privacy-policy link, any cross-border transfer, and available controls. Stillglide does not intentionally send original photos to ad SDKs. SDK behavior must be checked in the exact published build.
+Google LLC provides AdMob and UMP. Google's SDK may automatically collect and share the data listed above with Google to deliver and measure ads, manage consent, and prevent fraud. Google says Google Mobile Ads SDK data is encrypted in transit with TLS. Google may process data outside your country or region. See Google's privacy policy at https://policies.google.com/privacy and Google's Mobile Ads data disclosure at https://developers.google.com/admob/android/privacy/play-data-disclosure. We do not use other advertising, analytics, or crash-reporting SDKs in this release.
 
 5. Your choices
-You can revoke photo or folder access in Android settings. If ads are enabled, UMP supplies applicable ad privacy options. Clearing app data removes local favorites, notes, vault files and their encryption key, but does not clear favorite flags already written to Android's media library or restore media already removed by Android.
+You can revoke photo or folder access in Android settings. Where required, UMP presents a consent message; the Ad privacy options entry in Settings lets you revisit available choices. You may also reset or delete the Android advertising ID in device settings. Clearing app data removes local favorites, settings, consent state, notes, vault files and their encryption key, but does not clear favorite flags already written to Android's media library or restore media already removed by Android. Google handles its retained advertising data under its own policy; contact us at the email above for help with app data.
 
 6. Children, changes, and contact
 Stillglide is intended for general audiences. Minors should use trash controls with a parent or guardian. We will notify users in the app of material policy changes. For questions about local records or this policy, contact the email above.
 
-Review this draft against the final advertising configuration and store requirements, and publish it at a stable public URL before release.
