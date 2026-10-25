@@ -1,0 +1,27 @@
+Stillglide Terms of Service 
+Updated: October 25, 2026
+
+Operator: Fortune
+Contact email: yufuchang.work@gmail.com
+
+1. Service
+Stillglide provides on-device photo browsing, folder selection, reflections, in-app favorites, and access to Android's system trash. The debug build also demonstrates notes and an encrypted vault; these are hidden in the current release build. This version provides no cloud backup or account sync. Advertising may be enabled in a later release. Umeng and Bugly are not included in this version.
+
+2. Access and use
+You must have the right to access and manage photos and folders you choose. You may decline broad photo access and instead grant access to a specific folder using Android's system picker. On Android 12 and later, you may optionally grant media management special access to avoid confirmation for each trash operation. Without it, Android retains its usual confirmation flow.
+
+3. Trash and recovery
+Swiping up asks Android to move a photo to its system trash. If you cancel a required system prompt or the request fails, the photo remains in the gallery. After granting media management access, trash and restoration may proceed without individual prompts; use these gestures carefully. An image in a special folder that cannot be mapped to Android's media library is not permanently deleted. Settings > Recently deleted shows trashed images this app can access and lets you request recovery. A manufacturer's Gallery app may use a separate Recently Deleted area and may not show Android MediaStore trash items. Android and the device determine retention and eventual deletion. Keep a separate backup of important photos.
+
+4. Availability
+The app depends on Android's media library, document providers, and your permissions. Some folders, cloud images, formats, or device restrictions may prevent reading, trashing, or restoring a photo. Check permissions and source availability if an operation fails.
+
+Where the vault feature is enabled, it has no separate PIN or biometric lock. Moving a photo to the vault first creates and verifies an encrypted copy in app-private storage, then asks Android to delete the original from the system gallery. After deletion, the original disappears from the gallery and may not be in Recently deleted. The vault copy exists only on this device and is not a cloud backup. Uninstalling Stillglide or clearing app data removes vault files and their encryption key, making the photos unrecoverable. Before uninstalling or clearing data, inspect the vault and restore or separately back up every photo you need. Restoration writes and verifies a new gallery image before removing the encrypted copy. The app repeats this warning before moving a photo.
+
+5. Rights in content
+Software, icons, and interface rights belong to their lawful holders. You retain rights in your own photos. Use the app only for content you are authorized to access.
+
+6. Changes and contact
+Features and these terms may change with new versions. Material changes will be announced in the app. For questions, contact the email above.
+
+This remains a development draft until reviewed against the final advertising configuration and store requirements.
