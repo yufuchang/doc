@@ -1,12 +1,12 @@
 Stillglide Terms of Service
-Updated: October 25, 2026
-Effective date: October 25, 2026
+Updated: October 26, 2026
+Effective date: October 26, 2026
 
 Operator: Fortune
 Contact email: yufuchang.work@gmail.com
 
 1. Service
-Stillglide provides on-device photo browsing, folder selection, reflections, in-app favorites, and access to Android's system trash. The debug build also demonstrates notes and an encrypted vault; these are hidden in the current release build. This version provides no cloud backup or account sync. The release build includes Google AdMob app open and banner ads, subject to applicable privacy choices. Umeng and Bugly are not included.
+Stillglide provides on-device photo browsing, folder selection, reflections, in-app favorites, and access to Android's system trash. The debug build also demonstrates notes and an encrypted vault; these are hidden in the current release build. This version provides no cloud backup or account sync. The release build includes Google AdMob app open and banner ads, subject to applicable privacy choices.
 
 2. Access and use
 You must have the right to access and manage photos and folders you choose. You may decline broad photo access and instead grant access to a specific folder using Android's system picker. On Android 12 and later, you may optionally grant media management special access to avoid confirmation for each trash operation. Without it, Android retains its usual confirmation flow.
@@ -16,7 +16,7 @@ Swiping up asks Android to move a photo to its system trash. If you cancel a req
 
 4. Advertising and availability
 
-On later launches, a three-second loading screen may appear. Its Skip button dismisses the app's loading screen and cancels any pending app open ad request. Once an AdMob app open ad is displayed, its own close control and timing govern dismissal; the app's Skip button does not cover or close the ad. Banner ads appear in a reserved area below the gallery after the launch flow. Ads may be unavailable because of consent choices, network conditions, or ad inventory; photo features remain usable.
+On later launches, a loading screen may appear. You can tap Enter gallery at any time to dismiss it and cancel an app open ad that has not appeared; the loading screen also closes automatically within five seconds. Once an AdMob app open ad is displayed, use its own close control; the ad component governs its display and dismissal, without an ad countdown set by the app. Banner ads appear in a reserved area below the gallery after the launch flow. Ads may be unavailable because of consent choices, network conditions, or ad inventory; photo features remain usable.
 
 The app depends on Android's media library, document providers, and your permissions. Some folders, cloud images, formats, or device restrictions may prevent reading, trashing, or restoring a photo. Check permissions and source availability if an operation fails.
 
